@@ -10,6 +10,14 @@ const routes = [
   {
     path: "blankPage",
     component: asyncComponent(() => import("../blankPage"))
+  },
+  {
+    path: "inbox",
+    component: asyncComponent(() => import("../Mail"))
+  },
+  {
+    path: "mailbox",
+    component: asyncComponent(() => import("../Mail"))
   }
 ];
 
